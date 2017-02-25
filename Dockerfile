@@ -1,4 +1,4 @@
-FROM armv7/alpine:3.3
+FROM armhf/alpine:3.3
 LABEL maintainer "vmizzle@gmail.com"
 
 ENV HOSTAPD_VERSION=2.6-r0

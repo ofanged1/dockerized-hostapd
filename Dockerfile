@@ -1,7 +1,8 @@
 FROM armhf/alpine:3.3
 LABEL maintainer "vmizzle@gmail.com"
 
-ENV HOSTAPD_VERSION=2.6-r0
+#ENV HOSTAPD_VERSION=2.6-r0
+ENV HOSTAPD_VERSION=2.5-r3
 
 RUN apk add --update hostapd=${HOSTAPD_VERSION}  && \
 	rm -rf /var/cache/apk/*
